@@ -23,11 +23,11 @@ Step-by-step instructions on how to install and set up the project:
    git clone https://github.com/yourusername/RAPID.git
    cd RAPID
    ```
-2.	Create a virtual environment and activate it:
-  ```bash
-  python -m venv venv
-  source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-  ```
+2. Create a virtual environment and activate it:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+   ```
 3. Install the required dependencies:
    ```
    pip install -r requirements.txt
