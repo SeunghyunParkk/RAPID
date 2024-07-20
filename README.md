@@ -32,7 +32,7 @@ Features
 List of key features included in the project.
 
 ## View the Dashboard
-You can view the interactive dashboard [here](https://SeunghyunParkk.github.io/RAPID/).
+You can view the interactive dashboard [here](https://SeunghyunParkk.github.io/RAPID/index.html).
 
 Data Sources
 Details about the data sources used in the project.
