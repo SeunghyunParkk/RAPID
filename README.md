@@ -28,6 +28,7 @@ Instructions on how to use the project, including examples and code snippets.
 
 Example
 Provide an example of how to use the project:
+![Example GIF](Images/Demo.gif)
 
 Features
 List of key features included in the project.
