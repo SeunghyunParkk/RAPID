@@ -1,5 +1,5 @@
 # RAPID
-![Image](images/RAPID.png)
+<img src="Images/RAPID.png" alt="Example Image" width="300" />
 
 ## Table of Contents
 1. Introduction
