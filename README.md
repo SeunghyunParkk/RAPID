@@ -47,25 +47,24 @@ Ensure you have the required datasets:
 
 ## Usage
 
-	1.	Ensure you have the necessary dataset (Dashboard.csv) in the project directory.
-	2.	Open the Jupyter notebook file (Monthly_Update.ipynb) and set the initial dates.
- 	3.	Run the code to gather, process the data.
-  	4. 	Add external data on Monthly_Update.csv file if there is any.
-	5.	Open the Jupyter notebook file (Criteria.ipynb) and Run to apply criteria.
-	3.	The processed data (Dashboard.csv) will have alert status based on the criteria.
+1.	Ensure you have the necessary dataset (Dashboard.csv) in the project directory.
+
+   	<img src="Images/Step1.png" alt="Example Image" width="300" />
+    
+2.	Open the Jupyter notebook file (Monthly_Update.ipynb) and set the initial dates.
+
+   	<img src="Images/Step2.png" alt="Example Image" width="600" />
+    
+3.	Run the code to gather, process the data.
+
+   	<img src="Images/Step2.png" alt="Example Image" width="300" />
+    
+4. 	Add external data on Monthly_Update.csv file if there is any.
+   
+5.	Open the Jupyter notebook file (Criteria.ipynb) and Run to apply criteria.
+    
+6.	The processed data (Dashboard.csv) will have alert status based on the criteria.
  
-
-
-	3.	Add External Data:
-	•	If you have additional data from other sources, append it to Monthly_Update.csv.
-
-	4.	Apply Bad Batch Criteria:
-	•	Open Criteria.ipynb.
-	•	Ensure all external data has been added to Monthly.csv before proceeding.
-	•	Click “Run All.”
-
-	This will update dashboard.csv with the new data, ‘Dashboard.csv’.
-
 
 ## Example
 
