@@ -57,7 +57,7 @@ Ensure you have the required datasets:
     
 3.	Run the code to gather, process the data.
 
-   	<img src="Images/Step2.png" alt="Example Image" width="300" />
+   	<img src="Images/Step3.png" alt="Example Image" width="300" />
     
 4. 	Add external data on Monthly_Update.csv file if there is any.
    
