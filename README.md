@@ -23,7 +23,8 @@ Provide an example of how to use the project:
 Features
 List of key features included in the project.
 
-<iframe width="600" height="450" src="https://lookerstudio.google.com/embed/reporting/d4ee0e89-a8b2-4d92-9926-f69474198d63/page/p_lffrf20bjd" frameborder="0" style="border:0" allowfullscreen sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox"></iframe>
+## View the Dashboard
+You can view the interactive dashboard [here](https://your-username.github.io/your-repo-name/).
 
 Data Sources
 Details about the data sources used in the project.
