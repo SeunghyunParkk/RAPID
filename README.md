@@ -1,9 +1,17 @@
 # RAPID
 
-## Taboe of Contents
+## Table of Contents
+1. Introduction
+2. Features
+3.  Installation
+4.  Prerequisites
+5.  Usage
+6.  
+## Introduction
 
-Description
-A brief overview of the Student Analytics Project, explaining its purpose and goals. This project analyzes data such as grades, attendance, and participation to provide insights into student performance and areas for improvement.
+Real-time Alert Platform for Informed Decisions (RAPID) is a sponsored project by the J Healthcare Initiative, a non-profit organization dedicated to empowering drug users’ healthcare choices.
+
+RAPID implements clear criteria to identify and alert about illicit drug batches, significantly improving public health outcomes. This data-driven approach enhances healthcare system preparedness, enables more effective resource allocation, and facilitates evidence-based policy development. It also lays the foundation for robust research by offering insights into illicit drug trends.
 
 Tech Assets and URLs
 Describe all the assets involved in the project and how to access them
@@ -24,7 +32,7 @@ Features
 List of key features included in the project.
 
 ## View the Dashboard
-You can view the interactive dashboard [here](https://your-username.github.io/your-repo-name/).
+You can view the interactive dashboard [here](https://SeunghyunParkk.github.io/RAPID/).
 
 Data Sources
 Details about the data sources used in the project.
