@@ -1,4 +1,5 @@
 # RAPID
+![Image](images/RAPID.png)
 
 ## Table of Contents
 1. Introduction
