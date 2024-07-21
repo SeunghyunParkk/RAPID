@@ -2,11 +2,13 @@
 <img src="Images/RAPID.png" alt="Example Image" width="300" />
 
 ## Table of Contents
-1. Introduction
-2. Features
-3. Installation
-4. Prerequisites
-5. Usage
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Code Structure](#code-structure)
+4. [Usage](#usage)
+5. [Features](#features)
+6. [Data Sources](#data-sources)
+7. [Contact Information](#contact-information)
 
 ## Introduction
 
