@@ -10,7 +10,7 @@
 
 ## Introduction
 
-This project focuses on collecting data from various online sources, applying specific criteria to identify harmful drug adulterants, and building an alert system through a dashboard named RAPID (Real-time Alert Platform for Informed Decisions). RAPID implements clear criteria to identify and alert about illicit drug batches, significantly improving public health outcomes. This data-driven approach enhances healthcare system preparedness, enables more effective resource allocation, and facilitates evidence-based policy development. It also lays the foundation for robust research by offering insights into illicit drug trends.
+This project involves collecting drug test data from various online sources, transforming it, and applying criteria to identify harmful drug adulterants. The resulting alerts are displayed through a dashboard named RAPID (Real-time Alert Platform for Informed Decisions). RAPID aims to enhance public health by providing real-time alerts about potentially dangerous drug batches. This data-driven approach improves healthcare system preparedness, optimizes resource allocation, supports evidence-based policy development, and offers valuable insights into illicit drug trends for robust research. Data collection and transformation were done using Python, and the dashboard was created with Google Looker Studio.
 
 ## Installation
 
@@ -65,22 +65,31 @@ Ensure you have the required datasets:
     
 6.	The processed data (Dashboard.csv) will have alert status based on the criteria.
  
-
-## Example
+7.	Create a dashboard using the dataset (Dashboard.csv).
+   
+### Dashboard Example
 
 ![Example GIF](Images/Demo.gif)
+
+You can view the interactive dashboard [here](https://lookerstudio.google.com/embed/reporting/d4ee0e89-a8b2-4d92-9926-f69474198d63/page/p_lffrf20bjd).
 
 ## Features
 
 List of key features included in the project:
 
-	•	Real-time data processing and alert generation
-	•	Criteria-based filtering for different drug categories
-	•	Integration with Google Looker Studio for interactive dashboards
-	•	Automated ETL process for updating data and dashboards## View the Dashboard
- 
-You can view the interactive dashboard [here](https://lookerstudio.google.com/embed/reporting/d4ee0e89-a8b2-4d92-9926-f69474198d63/page/p_lffrf20bjd).
+1.	Data Collection and Transformation:
+	The project collects drug test data from various online sources and transforms it using Python to ensure it is ready for analysis.
 
+2.	Criteria-based Identification:
+	Applies criteria to the collected data to identify harmful drug adulterants, enabling accurate and timely alerts.
+
+3.	Interactive Dashboard:
+	The RAPID dashboard, created using Google Looker Studio, provides an interactive and user-friendly interface to visualize alerts and trends.
+
+8.	Data-Driven Insights:
+	Offers valuable insights into illicit drug trends, supporting robust research and evidence-based policy development.
+
+ 
 ## Data Sources
 
 Details about the data sources used in the project:
@@ -89,8 +98,12 @@ Details about the data sources used in the project:
 - [Get Your Drugs Tested](https://getyourdrugstested.com/alerts/)
 
 
-Contact Information
+## Contact Information
+
 For any questions or concerns, please contact:
+
 Name: Seunghyun Park
+
 Email: seunghyun.park@mail.mcgill.ca
+
 GitHub: https://github.com/SeunghyunParkk
