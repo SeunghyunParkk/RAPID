@@ -45,6 +45,64 @@ Ensure you have the required datasets:
 
 	•	Dashboard.csv
 
+## Code Structure
+
+### Monthly_Update.py 
+This code file is designed to scrape and process drug testing data from the websites https://bccsu-drugsense.onrender.com/ and https://getyourdrugstested.com. Below are the steps involved in the script:
+
+1.	Import Libraries:
+   
+	Import Selenium for web scraping, Pandas for data manipulation, and other libraries for handling dates and regular expressions.
+
+3.	Initialize Variables:
+   
+	Set up the current date, the start date for data scraping, the target URL, and the maximum number of pages to scrape.
+
+5.	Set Up Selenium WebDriver:
+   
+	Configure the Selenium WebDriver and navigate to the target website.
+
+6.	Data Scraping Loop:
+   
+	Scrape data from the website by iterating through the pages and extracting relevant information from the table rows. Store the scraped data in a list.
+
+7.	Data Processing:
+   
+   	Clean and structure the collected data using various transformation functions to prepare it for analysis.
+  	
+9.	Export Data to CSV:
+   
+	Merge the scraped data with existing data, sort it by date, and export the processed data to a CSV file named Monthly_Update.csv.
+
+
+
+### Criteria.ipynb
+This code file processes drug testing data to generate alerts based on specific criteria. Below are the steps involved in the script:
+
+1.	Import Necessary Libraries:
+   
+	Import libraries such as Pandas and NumPy for data manipulation.
+
+2.	Read Data:
+   
+	Load the data from the Monthly_Update.csv file into a DataFrame.
+
+3.	Define Stimulant Conditions and Generate Alerts:
+   
+	Define conditions for stimulants and apply them to the DataFrame to generate alerts.
+
+4.	Define Depressant Conditions and Generate Alerts:
+   
+	Define conditions for Depressant and apply them to the DataFrame to generate alerts.
+
+5.	Merge with Current Dashboard Data:
+    
+	Merge the processed data with existing data from the Dashboard.csv file to update the dashboard.
+
+6.	Export Data to CSV:
+   
+	Export the updated data to Dashboard.csv, ensuring it is sorted by date and contains no duplicates.
+
 ## Usage
 
 1.	Ensure you have the necessary dataset (Dashboard.csv) in the project directory.
@@ -66,7 +124,8 @@ Ensure you have the required datasets:
 6.	The processed data (Dashboard.csv) will have alert status based on the criteria.
  
 7.	Create a dashboard using the dataset (Dashboard.csv).
-   
+
+
 ### Dashboard Example
 
 ![Example GIF](Images/Demo.gif)
