@@ -3,7 +3,7 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Installation](#installation)
+2. [Prerequisites](#prerequisites)
 3. [Code Structure](#code-structure)
 4. [Usage](#usage)
 5. [Features](#features)
@@ -14,26 +14,8 @@
 
 This project involves collecting drug test data from various online sources, transforming it, and applying criteria to identify harmful drug adulterants. The resulting alerts are displayed through a dashboard named RAPID (Real-time Alert Platform for Informed Decisions). RAPID aims to enhance public health by providing real-time alerts about potentially dangerous drug batches. This data-driven approach improves healthcare system preparedness, optimizes resource allocation, supports evidence-based policy development, and offers valuable insights into illicit drug trends for robust research. Data collection and transformation were done using Python, and the dashboard was created with Google Looker Studio.
 
-## Installation
-
-Step-by-step instructions on how to install and set up the project:
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/RAPID.git
-   cd RAPID
-   ```
-2. Create a virtual environment and activate it:
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-   ```
-3. Install the required dependencies:
-   ```
-   pip install -r requirements.txt
-   ```
    
-### Prerequisites
+## Prerequisites
 
 List of prerequisites necessary for the project:
 
